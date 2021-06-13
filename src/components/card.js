@@ -55,7 +55,7 @@ const Card = (article) => {
 	// </div>
 	//
 };
-console.log(Card);
+// console.log(Card);
 
 // const entryPoint = document.querySelector(".cards-container");
 // console.log(entryPoint);
@@ -70,10 +70,10 @@ const cardAppender = (selector) => {
 				const newCard = Card(cardData);
 				const entryPoint = document.querySelector(selector);
 				entryPoint.appendChild(newCard);
-				console.log(newCard);
+				// console.log(newCard);
 			});
 
-			console.log("all the data ====>", res.data.articles.bootstrap);
+			// console.log("all the data ====>", res.data.articles.bootstrap);
 		})
 		.catch((err) => console.log(err), []);
 	// TASK 6
